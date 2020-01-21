@@ -4,4 +4,4 @@
 # graph g
 A, B, C, D, E, F, G = list('ABCDEDF')
 
-G = {}
+G = {A:{B:1,C:1}}
