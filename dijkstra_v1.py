@@ -67,7 +67,9 @@ while not final_node:
                 elif route_tables_item[3] > route_item.get(route_item_key)[3]:
                     route_tables[route_item_key] = route_item.get(route_item_key)
                 final_node = False
-        if len(round_short) != 0:
+
+        # 当本轮有处理节点时更新后继节点
+        if not final_node:
             transit_node = round_short[0]
             S.append(transit_node)
             U.remove(transit_node)
