@@ -37,11 +37,14 @@ U.remove(transit_node)
 # 开始处理
 # 此版本假设G为全连通图
 # 下个版本优化非全连通图
+final_node = False
 
-while len(U) > 0:
+while not final_node:
+    final_node = True
     # 获取当前节点邻接关系
     transit_neighbours = G.get(transit_node)
     if transit_neighbours is not None:
+        # 本轮有效邻居中权值最短的节点round_short
         round_short = []
         for k, v in transit_neighbours.items():
             # 后继节点不应当在前置路由表中，避免路由成环
@@ -63,14 +66,16 @@ while len(U) > 0:
                     route_tables[route_item_key] = route_item.get(route_item_key)
                 elif route_tables_item[3] > route_item.get(route_item_key)[3]:
                     route_tables[route_item_key] = route_item.get(route_item_key)
-        transit_node = round_short[0]
-        S.append(transit_node)
-        U.remove(transit_node)
-        pre_path.append(transit_node)
-        pre_weight += round_short[1]
+                final_node = False
+        if len(round_short) != 0:
+            transit_node = round_short[0]
+            S.append(transit_node)
+            U.remove(transit_node)
+            pre_path.append(transit_node)
+            pre_weight += round_short[1]
 
-for k,v in route_tables.items():
-    print(k,v)
+for k, v in route_tables.items():
+    print(k, v)
 
 print('----------')
 
