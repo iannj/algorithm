@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1279f7-7e92-4bb5-b385-c7a708a73d7d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/fisher_yates_shuffle.py" afterDir="false" />
+    <list default="true" id="be1279f7-7e92-4bb5-b385-c7a708a73d7d" name="Default" comment="do fisher-yates shuffle with while loop.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fisher_yates_shuffle.py" beforeDir="false" afterPath="$PROJECT_DIR$/fisher_yates_shuffle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,36 +98,77 @@
       <option name="presentableId" value="Default" />
       <updated>1579654758205</updated>
       <workItem from="1580285847053" duration="1469000" />
-      <workItem from="1580287348042" duration="3324000" />
+      <workItem from="1580287348042" duration="3482000" />
+      <workItem from="1580301291633" duration="1007000" />
     </task>
+    <task id="LOCAL-00001" summary="do fisher-yates shuffle with while loop.">
+      <created>1580290739243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580290739243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="do fisher-yates shuffle with while loop." />
+    <option name="LAST_COMMIT_MESSAGE" value="do fisher-yates shuffle with while loop." />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1580289700105">
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1580290738214">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580289700105" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1580289700105">
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580290738214" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1580302113887">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580289700105" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1580289700104">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580302113887" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1580302113887">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580289700104" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1580289700105">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580302113887" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1580302113887">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580289700105" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580302113887" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1580302113887">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580302113887" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1580302034090">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580302034090" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1580302034090">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1580302034090" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1580302034090">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1580302034090" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1580302034090">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1580302034090" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1580290386430">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1580290386430" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1580290802728">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580290802728" />
+    <state x="437" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580290755163">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="437" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1580290755163" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/algorithm$fisher_yates_shuffle.coverage" NAME="fisher_yates_shuffle Coverage Results" MODIFIED="1580289700095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$fisher_yates_shuffle.coverage" NAME="fisher_yates_shuffle Coverage Results" MODIFIED="1580302113875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

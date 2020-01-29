@@ -7,19 +7,32 @@ Fisher-Yates Shuttle Algorithm
   :author: liujie.nj@gmail.com
   :change log:
     v0.1 This is the first version with python.
+    v0.2 Using just on list to run the algorithm.
 """
-import random
 from random import randint
 
 D = [x for x in range(100)]
 
+"""
+# v0.1
 target = []
 
 while len(D) > 1:
     temp = D.pop(-1)
-    i = random.randint(0, len(D) - 1)
+    i = randint(0, len(D) - 1)
     target.insert(0, D[i])
     D[i] = temp
     print(target)
 target.insert(D[0], 0)
 print(target)
+"""
+
+# v0.2
+l = len(D) - 1
+
+for i in range(l - 1):
+    x = randint(i + 1, l)
+    temp = D[i]
+    D[i] = D[x]
+    D[x] = temp
+    print(D)
