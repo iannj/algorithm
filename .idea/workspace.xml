@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1279f7-7e92-4bb5-b385-c7a708a73d7d" name="Default" comment="do fisher-yates shuffle with for loop.">
-      <change afterPath="$PROJECT_DIR$/knuth_shuffle.py" afterDir="false" />
+    <list default="true" id="be1279f7-7e92-4bb5-b385-c7a708a73d7d" name="Default" comment="do Knuth shuffle with for loop.">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fisher_yates_shuffle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shuffles/fisher_yates_shuffle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knuth_shuffle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Shuffles/knuth_shuffle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +32,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunManager" selected="Python.knuth_shuffle">
     <configuration name="dijkstra_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -71,7 +74,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fisher_yates_shuffle.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\liujie\Documents\My Projects\algorithm\Shuffle\fisher_yates_shuffle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -93,7 +96,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knuth_shuffle.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\liujie\Documents\My Projects\algorithm\Shuffle\knuth_shuffle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +125,8 @@
       <updated>1579654758205</updated>
       <workItem from="1580285847053" duration="1469000" />
       <workItem from="1580287348042" duration="3482000" />
-      <workItem from="1580301291633" duration="3016000" />
+      <workItem from="1580301291633" duration="3452000" />
+      <workItem from="1580400757148" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="do fisher-yates shuffle with while loop.">
       <created>1580290739243</created>
@@ -138,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580302337797</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="do Knuth shuffle with for loop.">
+      <created>1580304470130</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580304470130</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,57 +158,66 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="do fisher-yates shuffle with while loop." />
     <MESSAGE value="do fisher-yates shuffle with for loop." />
-    <option name="LAST_COMMIT_MESSAGE" value="do fisher-yates shuffle with for loop." />
+    <MESSAGE value="do Knuth shuffle with for loop." />
+    <option name="LAST_COMMIT_MESSAGE" value="do Knuth shuffle with for loop." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1580304427570">
+    <state x="395" y="148" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580400976009">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580304427570" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1580304345723">
+    <state x="395" y="148" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1580400976009" />
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1580304469455">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580304345723" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1580304345723">
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580304469455" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1580304747539">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580304345723" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1580304345723">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580304747539" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1580304747539">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580304345723" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1580304345723">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580304747539" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1580304747539">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580304345723" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1580302034090">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580304747539" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1580304747539">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580302034090" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1580302034090">
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580304747539" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1580304747533">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1580302034090" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1580302034090">
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580304747533" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1580304747533">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1580302034090" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1580302034090">
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1580304747533" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1580304747533">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1580302034090" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1580290386430">
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1580304747533" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1580304747533">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1580290386430" />
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1580302351696">
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1580304747533" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1580304718908">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580302351696" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1580304718908" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1580304486311">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580304486311" />
     <state x="437" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580290755163">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="437" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1580290755163" />
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup" timestamp="1580304548013">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="303" y="10" width="672" height="678" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1580304548013" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$knuth_shuffle.coverage" NAME="knuth_shuffle Coverage Results" MODIFIED="1580304345712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
