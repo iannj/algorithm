@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1279f7-7e92-4bb5-b385-c7a708a73d7d" name="Default" comment="Finish 1-way, 2-way and 3-way quick sort algorithm.">
-      <change afterPath="$PROJECT_DIR$/Sorts/insertion_sort.py" afterDir="false" />
+    <list default="true" id="be1279f7-7e92-4bb5-b385-c7a708a73d7d" name="Default" comment="simple insertion sort algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +177,8 @@
       <workItem from="1580301291633" duration="3452000" />
       <workItem from="1580400757148" duration="3486000" />
       <workItem from="1580436867707" duration="38630000" />
-      <workItem from="1580809477526" duration="3527000" />
+      <workItem from="1580809477526" duration="4685000" />
+      <workItem from="1580872780401" duration="1393000" />
     </task>
     <task id="LOCAL-00001" summary="do fisher-yates shuffle with while loop.">
       <created>1580290739243</created>
@@ -229,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580615222959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="simple insertion sort algorithm">
+      <created>1580814352007</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580814352007</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +249,8 @@
     <MESSAGE value="Changing directory" />
     <MESSAGE value="Changing name of readme.md" />
     <MESSAGE value="Finish 1-way, 2-way and 3-way quick sort algorithm." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish 1-way, 2-way and 3-way quick sort algorithm." />
+    <MESSAGE value="simple insertion sort algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple insertion sort algorithm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="4" key="#Inspections" timestamp="1580401520591">
@@ -253,26 +261,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="395" y="148" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1580400976009" />
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1580615222188">
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1580814351277">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580615222188" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1580812056679">
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580814351277" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1580819974463">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580812056679" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1580812056679">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580819974463" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1580819974463">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580812056679" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1580812056679">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580819974463" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1580819974463">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580812056679" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1580812056679">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580819974463" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1580819974463">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580812056679" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580819974463" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1580615428654">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -293,10 +301,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1580442112718" />
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1580615311357">
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1580814363878">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580615311357" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580814363878" />
     <state x="437" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580290755163">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
