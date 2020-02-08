@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="be1279f7-7e92-4bb5-b385-c7a708a73d7d" name="Default" comment="simple insertion sort algorithm">
+    <list default="true" id="be1279f7-7e92-4bb5-b385-c7a708a73d7d" name="Default" comment="just a test for push in ssh">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trajectory Similarities/Trajectory Distance-Yao Di.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trajectory Similarities/quotes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trajectory Similarities/quotes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trajectory Similarities/quotes_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Trajectory Similarities/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,17 +30,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1X3ruNTeUUar6LiMlm6E2m3iFkL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,7 +52,7 @@
       <recent name="C:\Users\liujie\Documents\My Projects\algorithm\Shuffle" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.insertion_sort">
+  <component name="RunManager" selected="Python.quotes">
     <configuration name="bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,28 +67,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Sorts/bubble_sort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dijkstra_v1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dijkstra_v1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,13 +141,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="quotes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trajectory Similarities" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trajectory Similarities/quotes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quotes" />
         <item itemvalue="Python.insertion_sort" />
         <item itemvalue="Python.bubble_sort" />
         <item itemvalue="Python.knuth_shuffle" />
         <item itemvalue="Python.fisher_yates_shuffle" />
-        <item itemvalue="Python.dijkstra_v1" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +189,13 @@
       <workItem from="1580400757148" duration="3486000" />
       <workItem from="1580436867707" duration="38630000" />
       <workItem from="1580809477526" duration="4685000" />
-      <workItem from="1580872780401" duration="1393000" />
+      <workItem from="1580872780401" duration="17024000" />
+      <workItem from="1580995802461" duration="312000" />
+      <workItem from="1580996198038" duration="287000" />
+      <workItem from="1580996802602" duration="416000" />
+      <workItem from="1581047714671" duration="2114000" />
+      <workItem from="1581076666995" duration="1366000" />
+      <workItem from="1581131322811" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary="do fisher-yates shuffle with while loop.">
       <created>1580290739243</created>
@@ -236,13 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1580814352007</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="just a test for push in ssh">
+      <created>1580875258042</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1580875258042</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="do fisher-yates shuffle with while loop." />
     <MESSAGE value="do fisher-yates shuffle with for loop." />
     <MESSAGE value="do Knuth shuffle with for loop." />
@@ -250,7 +275,8 @@
     <MESSAGE value="Changing name of readme.md" />
     <MESSAGE value="Finish 1-way, 2-way and 3-way quick sort algorithm." />
     <MESSAGE value="simple insertion sort algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple insertion sort algorithm" />
+    <MESSAGE value="just a test for push in ssh" />
+    <option name="LAST_COMMIT_MESSAGE" value="just a test for push in ssh" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="4" key="#Inspections" timestamp="1580401520591">
@@ -261,26 +287,34 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="395" y="148" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.689@0.0.1280.689" timestamp="1580400976009" />
-    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1580814351277">
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580995494773">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1580814351277" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1580819974463">
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1580995494773" />
+    <state x="273" y="0" key="CommitChangelistDialog2" timestamp="1581133749943">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580819974463" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1580819974463">
+    <state x="273" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1581133749943" />
+    <state x="421" y="101" key="FileChooserDialogImpl" timestamp="1581131520046">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580819974463" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1580819974463">
+    <state x="421" y="101" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1581131520046" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1580996486072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580819974463" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1580819974463">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1580996486072" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1580996486072">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580819974463" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1580996486072" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1580996486072">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1580996486072" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1580996486072">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1580996486072" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1580615428654">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -297,14 +331,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1580615428654" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1580442112718">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1580977234016">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1580442112718" />
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1580814363878">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1580977234016" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2" timestamp="1580876474693">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580814363878" />
+    <state x="233" y="79" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1580876474693" />
     <state x="437" y="263" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580290755163">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -320,6 +354,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/algorithm$knuth_shuffle.coverage" NAME="knuth_shuffle Coverage Results" MODIFIED="1580304345712" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/algorithm$quotes.coverage" NAME="quotes Coverage Results" MODIFIED="1580996206907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Trajectory Similarities" />
     <SUITE FILE_PATH="coverage/algorithm$quick_sort_on_double_list.coverage" NAME="quick_sort_on_double_list Coverage Results" MODIFIED="1580611583625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorts" />
     <SUITE FILE_PATH="coverage/algorithm$bubble_sort.coverage" NAME="bubble_sort Coverage Results" MODIFIED="1580404264372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorts" />
     <SUITE FILE_PATH="coverage/algorithm$insertion_sort.coverage" NAME="insertion_sort Coverage Results" MODIFIED="1580812056668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sorts" />
